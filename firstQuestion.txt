@@ -1,0 +1,67 @@
+Problem Name: Java Data Type Basics
+Difficulty: Easy
+Topic: Java - Variables and Data Types
+
+📝 Problem Statement:
+Write a Java program that does the following:
+
+Reads the following inputs from the user:
+
+An integer
+
+A double
+
+A string (with spaces)
+
+Stores the inputs in appropriate variables.
+
+Then, print the values in reverse order of input with appropriate labels. Each value should be printed on a new line.
+
+🔍 Input Format:
+The input will consist of three lines:
+
+The first line will contain an integer.
+
+The second line will contain a double.
+
+The third line will contain a string, which may include spaces.
+
+📤 Output Format:
+Print the values in reverse order of input, each prefixed with a label:
+
+vbnet
+Copy
+Edit
+String: <your string>
+Double: <your double>
+Int: <your integer>
+📌 Sample Input:
+css
+Copy
+Edit
+42
+3.14159
+Welcome to Java
+✅ Sample Output:
+vbnet
+Copy
+Edit
+String: Welcome to Java
+Double: 3.14159
+Int: 42
+🚫 Constraints:
+The integer will be between -1000 and 1000.
+
+The double will have at most 6 decimal places.
+
+The string will not exceed 100 characters.
+
+💡 Explanation:
+This problem checks if you understand how to:
+
+Declare variables of different types (int, double, String)
+
+Use Scanner to take inputs
+
+Print outputs in a specific format
+
