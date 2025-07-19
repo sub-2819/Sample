@@ -1,0 +1,4 @@
+Question is 
+input : aaabbc
+output : a3b2c1
+
