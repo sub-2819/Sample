@@ -1,0 +1,17 @@
+Write a Java program to check if a given number is an Armstrong number or not.
+
+Here's an example of the expected input and output:
+
+Input number: 153
+Output: "Yes, the number is an Armstrong number."
+
+Armstrong number means 
+  --> take a number 
+  --> find its digits, how many digits are there in the number
+  --> now power the value of digits with each number in a number of each place
+  --> now add all the value 
+  --> if sum is equal to the number in the beginning then the number is a armstrong number
+ eg: 153
+ it has 3 digit
+ so 1^3 + 5^3 + 3^3  = 153
+ it's equal to the value, so it is a armstrong number.
