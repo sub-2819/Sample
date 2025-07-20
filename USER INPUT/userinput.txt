@@ -1,0 +1,65 @@
+Scanner 
+ --> Scanner is a object
+ --> for using Scanner in programming we have to import a package called utility 
+    -->  import.java.util.Scanner; // here Scanner is a class
+             or
+    -->  import.java.util.*; 
+ --> to accept input from user we have to use Scanner class
+     --> Scanner userInput = new Scanner(System.in); 
+         ....
+     --> userInput.close(); // use this close method to close the scanner it is a good practice
+
+         --> 'Scanner' is a class
+         --> 'userInput' is a object name used to read the user input
+         --> 'new' a keyword to create a object
+
+ --> there are Data types 
+    @Primitive data types     
+    --> byte    
+        byte a = 10; // declaration and initialization
+        byte a; // declaration alone
+        byte a = userInput.nextByte(); // used to get input from user
+
+    --> short
+        short a = userInput.nextShort(); // get input
+
+    --> int 
+        int a = userInput.nextInt(); // get integer input
+
+    --> long
+        long a = userInput.nextLong(); // get Long Integer value
+
+    --> float
+        float a = userInput.nextFloat(); // get float value ( 23.30 -- is a float value)
+
+    --> double
+        double a = userInput.nextDouble(); // get double value (23.289  -- with high precise value)
+
+    --> char
+        char a = 'A';// it's used to be in ' ' single quotes
+        char a = userInput.next().charAt(0); 
+
+    --> boolean
+         boolean a = true; // it can be only for consitions verification true or false
+         boolean a = userInput.nextBoolean();
+
+to get input strings:
+
+#    String s = "Hello Dev"; // strings must be enclosed in " " double quotes
+#    String s = userInput.nextLine(); // this gets every word in the line including white spaces
+#    String s = userInput.next(); // this is used to get only a string before the white space 
+          eg:-
+            if i enter "Hello Dev" , it gets only "Hello" as input
+#    common problem in java is:
+        after getting input as integer , we get string normally we get a error.
+        Because of  first after getting integer, then we hit enter a \n newline character, 
+within the input buffer still there is a newline character. so for getting string we use nextLine() which picks the newline character as input.
+
+       for that we can use 
+        userInput.nextLine(); after getting input as integer, we can get rid of newline character.
+
+    @Non-Primitive data types
+    -->Arrays
+    -->Strings
+    -->Class
+    -->Interface
