@@ -1,0 +1,94 @@
+OPERATORS:-
+    They are special symbols that perform operations on variables and it's vlules
+          1: Arithmetic Operator
+          2: Relational Operator
+          3: Logical Operator
+          4: Bitwise operator
+          5: Assignment Operator
+          6: Unary Operator
+          7: Ternary Operator
+
+1:- ARITHMETIC OPERATOR  
+    this operator is to perform basic mathematical operations like
+          Addition  --> +   --> it gives addition of two values
+          Subtraction --> -   --> it give subtracted value of two values
+          Multiplication --> *  --> it gives multiplied value of two values
+          Division --> /  --> it gives quoitient of two values
+          Modulus --> %  --> it gives the remainder when Dividing two values
+
+2:- RELATIONAL OPERATOR
+    this used for comparison between two values or variables and return boolean result (true or false)
+          equals to  -->( ==  )--> it return true if both are equal
+          not equal  -->( !=  )--> it return true if both are not equal
+          greaterthan  -->(  > )--> it evaluates left side value is greater than right side value, if left side value is greater it says true
+          lessthan  -->(  <  )--> it evaluvates left side value is less than right side value, if right side value is lesser it says true
+          greaterthan or equalsto -->( >= )--> it evaluates both greaterthan and equalsto condition
+          lesserthan or equalsto -->( <= )
+
+3:- LOGICAL OPERATOR
+        logical AND -->( && )--> if both are true, it says true  
+        logical OR  -->( || )--> if one is true, it says true
+        logical NOT  -->( ! )--> it used to check one operand(value/variable) at a time, if answers says true, it chage to false
+
+4:- BITWISE OPERATOR
+    this perform operations on bits and are used for manipulating binary data.
+        Bitwise AND ( & ): Performs a binary AND operation.
+        Bitwise OR ( | ): Performs a binary OR operation.
+        Bitwise XOR ( ^ ): Performs a binary XOR operation.
+        Bitwise Complement ( ~ ): Inverts the bits of the operand.
+        Left Shift ( << ): Shifts bits to the left, filling with zeros.
+        Right Shift ( >> ): Shifts bits to the right, preserving the sign bit.
+        Unsigned Right Shift ( >>> ): Shifts bits to the right, filling with zeros.
+
+    example:-
+          int a = 5;// Binary: 0101
+          int b = 3;// Binary: 0011
+
+          System.out.println("Bitwise AND: " + (a & b)); // Output: 1 (0001)
+          System.out.println("Bitwise OR: " + (a | b));  // Output: 7 (0111)
+          System.out.println("Bitwise XOR: " + (a ^ b)); // Output: 6 (0110)
+          System.out.println("Bitwise Complement: " + (~a)); // Output: -6 (inverts bits)
+          System.out.println("Left Shift: " + (a << 1)); // Output: 10 (1010)
+          System.out.println("Right Shift: " + (a >> 1)); // Output: 2 (0010)
+
+5:-ASSIGNMENT OPERATOR
+  this are used to assign values to variables. They can also perform operations and assign the result to the variable.
+          Simple Assignment ( = ): Assigns the right operand to the left operand.
+          Add and Assign ( += ): Adds the right operand to the left operand and assigns the result.
+          Subtract and Assign ( -= ): Subtracts the right operand from the left operand and assigns the result.
+          Multiply and Assign ( = ): Multiplies the left operand by the right operand and assigns the result.
+          Divide and Assign ( /= ): Divides the left operand by the right operand and assigns the result.
+          Modulus and Assign ( %= ): Takes the modulus using two operands and assigns the result.
+
+  example:-
+          int a = 2;
+        ``a += 10; // a = 2+10, now 12 is stored in a variable
+
+6:- UNARY OPERATOR
+    this operate on a single operand. They can be used to perform operations such as incrementing, decrementing, negating, or inverting.
+          Unary Plus ( + ): Indicates a positive value (usually optional).
+          Unary Minus ( - ): Negates the value of the operand.
+          Increment ( ++ ): Increases the value of the operand by 1.
+          Decrement ( -- ): Decreases the value of the operand by 1.
+
+    eg:-
+          int a = 5;
+          System.out.println("Unary Plus: " + (+a)); // Output: 5
+          System.out.println("Unary Minus: " + (-a)); // Output: -5
+
+      for java increment and Decrement
+          int x = 5;
+
+          System.out.println(x++); // prints 5, then x becomes 6
+          System.out.println(++x); // x becomes 7, then prints 7
+          
+          System.out.println(x--); // prints 7, then x becomes 6
+          System.out.println(--x); // x becomes 5, then prints 5
+
+          int a = 5;
+          int b = a++ + ++a; 
+            for this b will be execute like a = 5, next ++ so increment 6  save a = 6 then '+' addition, 
+        then ++ increment now 6 becomes 7 then a = 7, then last  a will be 7.
+
+              b =  5 + 7;
+              b = 12;
