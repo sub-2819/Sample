@@ -1,0 +1,35 @@
+
+Math Class built in methods:-
+
+# For this Maths class no need to import any package
+
+  1: for getting pi value, we can use
+      Math.PI; 
+        --> it gives a value of 3.141592653589793 which is a double value
+  2: there is also for Exponential value e Euler number
+      Math.E;
+        --> it gives a value of 2.718281828459045 which is also a double value
+  3: to find the value of power of a value 
+      Math.pow(2,3); 
+        --> 2^3 is the meaning
+  4: to find the absolute value of a number 
+      Math.abs(-3); 
+        --> it gives 3, becomes absolute value
+  5: to find the square root of a value
+      Math.sqrt(3);
+        --> it gives square root for the value 3
+  6: to get a roundoff value 
+      Math.round(3.14); // output: 3
+        --> it gives nearest roundoff value of given value
+  7: to get always the heighest roundoff value we should use ceil
+      Math.ceil(3.14); // output: 4
+        --> to get the heighest value all time 
+  8: to get always the lowest value while roundoff
+      Math.floor(3.99); // output: 3
+        --> always it says lowest roundoff value
+  9: to get a maximum value between them
+      Math.max(10,20); // output: 20
+        --> compare and gives the maximum value
+  10: to get the minimum value between two numbers or variables
+      Math.min(2,8); // output: 2
+        --> compare and give the minimum value
