@@ -1,0 +1,133 @@
+CONTROL STATEMENTS:-
+  Control statements in Java are used to control the flow of execution of the program
+based on certain conditions. They allow you to make decisions, repeat actions, and branch
+your code.
+
+                  1:- Conditional Statement
+                  2:- Loop Statement
+                  3:- Jump Statement
+
+1 Conditional Statements:-
+  Conditional statements allow you to execute certain blocks of code based on specific
+conditions.
+                    if statement
+                    if else statement
+                    if else if else statement
+                    switch statement
+
+if statement
+    if statement evaluates a boolean expression and executes a block of code if the
+expression is true.
+      Syntax:
+
+            if (condition) {
+            // code to be executed if condition is true
+            }
+
+if else statement
+    if-else statement provides an alternative block of code to execute if the condition is
+false.
+      Syntax:
+
+            if (condition) {
+                // code to be executed if condition is true
+            } else {
+                // code to be executed if condition is false
+            }
+
+if else if else statement
+    this structure allows you to test multiple conditions.
+     Syntax:
+
+            if (condition1) {
+                // code to be executed if condition1 is true
+            } else if (condition2) {
+                // code to be executed if condition2 is true
+            } else {
+                // code to be executed if none of the conditions are true
+            }
+
+switch statement
+    The switch statement allows you to execute one block of code among many based on the
+value of a variable.
+    Syntax:
+
+            switch (expression) {
+            case value1:
+                // code to be executed if expression equals value1
+            break;
+            case value2:
+                // code to be executed if expression equals value2
+            break;
+            default:
+                // code to be executed if expression does not match any case
+            }
+
+2 Loop statements:-
+    allow you to execute a block of code repeatedly based on a condition.
+              while
+              do..while
+              for
+
+while 
+    this continues to execute as long as the specified condition is true.
+  Syntax:
+
+        while (condition) {
+        // code to be executed
+        }
+
+do while
+    this is similar to the while loop, but it guarantees that the block of code will be
+executed at least once.
+  Syntax:
+
+      do {
+        // code to be executed
+      } while (condition);
+    
+for 
+    this is used when the number of iterations is known beforehand.
+Syntax:
+
+        for (initialization; condition; update) { // for(int i=0;i<10;i++)
+          // code to be executed
+        }
+
+3 Jump statements:-
+    Jump statements are used to control the flow of execution by jumping to a specific point in the
+code.
+        break
+        continue
+        return
+
+break
+    is used to exit a loop or switch statement.
+eg:
+       for(int i=0;i<10;i++){
+          if(i==5){
+            break; // when i=5, the loop breaks and end the loop
+          }
+        System.out.println("Print "+ i);
+       }
+
+continue
+    skips the current iteration of a loop and proceeds to the next
+iteration.
+eg:
+      for(int i=0;i<10;i++){
+          if(i==5){
+            continue; // when i=5, the loop don't print 5, instead it goes to i++ and continue process  
+          }
+        System.out.println("Print "+ i);
+       }
+
+return
+    is used to exit from a method and optionally return a value.
+eg:
+      int result = add(5, 10);
+      System.out.println("Sum: " + result);
+      }
+      static int add(int a, int b) {
+      return a + b; // Return the sum of a and b
+      }
